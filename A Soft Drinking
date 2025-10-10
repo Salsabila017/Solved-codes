@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+ int  n, k, l, c, d, p, nl, np, x, z, r,q,a,s;
+ cin>>n>>k>>l>>c>>d>>p>>nl>>np;
+
+ x= k*l;
+ int y = (float)x/nl;
+ 
+ z= c*d;
+ 
+ r= p/np;
+ 
+ q=min(y,z);
+ a=min(q,r);
+ 
+ s=a/n;
+ 
+ cout<<s;
+ 
+}
