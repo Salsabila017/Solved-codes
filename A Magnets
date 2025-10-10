@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int n, c=1; 
+    cin >> n;
+    string p, cr;
+    
+    cin >> p;  
+    for(int i = 1; i < n; i++) {
+        cin >> cr;
+        if(cr != p) { 
+            c++;
+        }
+        p = cr;
+    }
+    cout << c;
+}
